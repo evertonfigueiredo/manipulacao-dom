@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="tera.png" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Carrinho <span>0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products" id="products">
+            <div class="card">
+                <div class="img-product">
+                    <img src="tera.png" alt="">
+                </div>
+                <div class="title">
+                    <h4>Nome do Produto</h4>
+                </div>
+                <div class="price">
+                    <p>R$ 50,00</p>
+                </div>
+                <button>Adicionar Produto</button>
+            </div>
+        </section>
+        <article>
+            <section class="box">
+                <h2>Meu carrinho</h2>
+                <div class="list-product" id="list-product">
+                    <!-- <h2 class="txt-center">Sem produtos no carrinho</h2> -->
+                    <hr>
+                    <div class="car-product flex">
+                        <div class="img-product">
+                            <img src="tera.png" alt="">
+                        </div>
+                        <div class="flex column info">
+                            <h3>Nome do produto</h3>
+                            <h4>R$50,00</h3>
+                        </div>
+                        <div class="qtd flex column">
+                            <h3>QTD</h3>
+                            <div class="select-qtd">
+                                <button>+</button>
+                                <input type="text" value="1">
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div class="valor flex column">
+                            <h3>Valor</h3>
+                            <h4>R$50,00</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside class="box">
+                <h2>Total do Pedido</h2>
+                <div class="preco">
+                    <div class="flex alinhamento-preco">
+                        <p>Sub-Total:</p>
+                        <p id="subTotalValue">R$0,00</p>
+                    </div>
+                    <div class="flex alinhamento-preco">
+                        <p>Frete:</p>
+                        <p>R$0,00</p>
+                    </div>
+                    <hr>
+                    <div class="flex alinhamento-preco">
+                        <p>Total:</p>
+                        <p>R$0,00</p>
+                    </div>
+                </div>
+                <button class="finalizar">
+                    Finalizar Pedido
+                </button>
+            </aside>
+        </article>
+    </main>
+    <footer class="flex">
+        Desenvolvido Por Everton Figueiredo
+    </footer>
+    <!-- <script src="index.js"></script> -->
+</body>
+
+</html>
