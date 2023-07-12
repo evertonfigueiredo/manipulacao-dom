@@ -1,14 +1,14 @@
 let produtos = [
     {
-        nome: "Tenis Nike",
+        nome: "Tênis Nike",
         preco: 50.00
     },
     {
-        nome: "Tenis Adidas",
+        nome: "Tênis Adidas",
         preco: 70.00
     },
     {
-        nome: "Tenis Puma",
+        nome: "Tênis Puma",
         preco: 60.00
     },
 ]
